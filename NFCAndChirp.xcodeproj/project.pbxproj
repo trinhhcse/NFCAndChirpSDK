@@ -7,34 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38F6481884BD1A802F8711F4 /* Pods_NFCAndChirp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD25752E75217DC42B1DBAE0 /* Pods_NFCAndChirp.framework */; };
 		BA245F432358580900C0B1E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA245F422358580900C0B1E1 /* AppDelegate.swift */; };
 		BA245F452358580900C0B1E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA245F442358580900C0B1E1 /* SceneDelegate.swift */; };
 		BA245F472358580900C0B1E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA245F462358580900C0B1E1 /* ViewController.swift */; };
 		BA245F4A2358580900C0B1E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA245F482358580900C0B1E1 /* Main.storyboard */; };
 		BA245F4C2358580A00C0B1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA245F4B2358580A00C0B1E1 /* Assets.xcassets */; };
 		BA245F4F2358580A00C0B1E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA245F4D2358580A00C0B1E1 /* LaunchScreen.storyboard */; };
-		BA245F5A2358580B00C0B1E1 /* NFCAndChirpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA245F592358580B00C0B1E1 /* NFCAndChirpTests.swift */; };
-		BA245F652358580B00C0B1E1 /* NFCAndChirpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA245F642358580B00C0B1E1 /* NFCAndChirpUITests.swift */; };
+		BA245F73235858C700C0B1E1 /* NFCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA245F72235858C700C0B1E1 /* NFCManager.swift */; };
+		BA245F762358656B00C0B1E1 /* ChirpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA245F752358656B00C0B1E1 /* ChirpManager.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BA245F562358580B00C0B1E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA245F372358580900C0B1E1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA245F3E2358580900C0B1E1;
-			remoteInfo = NFCAndChirp;
-		};
-		BA245F612358580B00C0B1E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA245F372358580900C0B1E1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA245F3E2358580900C0B1E1;
-			remoteInfo = NFCAndChirp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		2F47787203A7E47D66F812D1 /* Pods-NFCAndChirp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFCAndChirp.debug.xcconfig"; path = "Target Support Files/Pods-NFCAndChirp/Pods-NFCAndChirp.debug.xcconfig"; sourceTree = "<group>"; };
 		BA245F3F2358580900C0B1E1 /* NFCAndChirp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCAndChirp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA245F422358580900C0B1E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA245F442358580900C0B1E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,12 +28,11 @@
 		BA245F4B2358580A00C0B1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA245F4E2358580A00C0B1E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA245F502358580A00C0B1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA245F552358580B00C0B1E1 /* NFCAndChirpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCAndChirpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA245F592358580B00C0B1E1 /* NFCAndChirpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCAndChirpTests.swift; sourceTree = "<group>"; };
-		BA245F5B2358580B00C0B1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA245F602358580B00C0B1E1 /* NFCAndChirpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCAndChirpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA245F642358580B00C0B1E1 /* NFCAndChirpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCAndChirpUITests.swift; sourceTree = "<group>"; };
-		BA245F662358580B00C0B1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA245F72235858C700C0B1E1 /* NFCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCManager.swift; sourceTree = "<group>"; };
+		BA245F7423585A3B00C0B1E1 /* NFCAndChirp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NFCAndChirp.entitlements; sourceTree = "<group>"; };
+		BA245F752358656B00C0B1E1 /* ChirpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChirpManager.swift; sourceTree = "<group>"; };
+		BD25752E75217DC42B1DBAE0 /* Pods_NFCAndChirp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFCAndChirp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2D4324B1F122E30A6F05C1 /* Pods-NFCAndChirp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFCAndChirp.release.xcconfig"; path = "Target Support Files/Pods-NFCAndChirp/Pods-NFCAndChirp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,33 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA245F522358580B00C0B1E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA245F5D2358580B00C0B1E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				38F6481884BD1A802F8711F4 /* Pods_NFCAndChirp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6297B77CAEF4F5466C8D15DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F47787203A7E47D66F812D1 /* Pods-NFCAndChirp.debug.xcconfig */,
+				DD2D4324B1F122E30A6F05C1 /* Pods-NFCAndChirp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BA245F362358580900C0B1E1 = {
 			isa = PBXGroup;
 			children = (
 				BA245F412358580900C0B1E1 /* NFCAndChirp */,
-				BA245F582358580B00C0B1E1 /* NFCAndChirpTests */,
-				BA245F632358580B00C0B1E1 /* NFCAndChirpUITests */,
 				BA245F402358580900C0B1E1 /* Products */,
+				6297B77CAEF4F5466C8D15DA /* Pods */,
+				F9460CC376FB85479509C48B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				BA245F3F2358580900C0B1E1 /* NFCAndChirp.app */,
-				BA245F552358580B00C0B1E1 /* NFCAndChirpTests.xctest */,
-				BA245F602358580B00C0B1E1 /* NFCAndChirpUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +77,12 @@
 		BA245F412358580900C0B1E1 /* NFCAndChirp */ = {
 			isa = PBXGroup;
 			children = (
+				BA245F7423585A3B00C0B1E1 /* NFCAndChirp.entitlements */,
 				BA245F422358580900C0B1E1 /* AppDelegate.swift */,
 				BA245F442358580900C0B1E1 /* SceneDelegate.swift */,
 				BA245F462358580900C0B1E1 /* ViewController.swift */,
+				BA245F72235858C700C0B1E1 /* NFCManager.swift */,
+				BA245F752358656B00C0B1E1 /* ChirpManager.swift */,
 				BA245F482358580900C0B1E1 /* Main.storyboard */,
 				BA245F4B2358580A00C0B1E1 /* Assets.xcassets */,
 				BA245F4D2358580A00C0B1E1 /* LaunchScreen.storyboard */,
@@ -110,22 +91,12 @@
 			path = NFCAndChirp;
 			sourceTree = "<group>";
 		};
-		BA245F582358580B00C0B1E1 /* NFCAndChirpTests */ = {
+		F9460CC376FB85479509C48B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA245F592358580B00C0B1E1 /* NFCAndChirpTests.swift */,
-				BA245F5B2358580B00C0B1E1 /* Info.plist */,
+				BD25752E75217DC42B1DBAE0 /* Pods_NFCAndChirp.framework */,
 			);
-			path = NFCAndChirpTests;
-			sourceTree = "<group>";
-		};
-		BA245F632358580B00C0B1E1 /* NFCAndChirpUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BA245F642358580B00C0B1E1 /* NFCAndChirpUITests.swift */,
-				BA245F662358580B00C0B1E1 /* Info.plist */,
-			);
-			path = NFCAndChirpUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +106,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA245F692358580B00C0B1E1 /* Build configuration list for PBXNativeTarget "NFCAndChirp" */;
 			buildPhases = (
+				90E4E8F0F4B805CF5D709A2E /* [CP] Check Pods Manifest.lock */,
 				BA245F3B2358580900C0B1E1 /* Sources */,
 				BA245F3C2358580900C0B1E1 /* Frameworks */,
 				BA245F3D2358580900C0B1E1 /* Resources */,
@@ -148,42 +120,6 @@
 			productReference = BA245F3F2358580900C0B1E1 /* NFCAndChirp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BA245F542358580B00C0B1E1 /* NFCAndChirpTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA245F6C2358580B00C0B1E1 /* Build configuration list for PBXNativeTarget "NFCAndChirpTests" */;
-			buildPhases = (
-				BA245F512358580B00C0B1E1 /* Sources */,
-				BA245F522358580B00C0B1E1 /* Frameworks */,
-				BA245F532358580B00C0B1E1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA245F572358580B00C0B1E1 /* PBXTargetDependency */,
-			);
-			name = NFCAndChirpTests;
-			productName = NFCAndChirpTests;
-			productReference = BA245F552358580B00C0B1E1 /* NFCAndChirpTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BA245F5F2358580B00C0B1E1 /* NFCAndChirpUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA245F6F2358580B00C0B1E1 /* Build configuration list for PBXNativeTarget "NFCAndChirpUITests" */;
-			buildPhases = (
-				BA245F5C2358580B00C0B1E1 /* Sources */,
-				BA245F5D2358580B00C0B1E1 /* Frameworks */,
-				BA245F5E2358580B00C0B1E1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA245F622358580B00C0B1E1 /* PBXTargetDependency */,
-			);
-			name = NFCAndChirpUITests;
-			productName = NFCAndChirpUITests;
-			productReference = BA245F602358580B00C0B1E1 /* NFCAndChirpUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +131,6 @@
 				TargetAttributes = {
 					BA245F3E2358580900C0B1E1 = {
 						CreatedOnToolsVersion = 11.1;
-					};
-					BA245F542358580B00C0B1E1 = {
-						CreatedOnToolsVersion = 11.1;
-						TestTargetID = BA245F3E2358580900C0B1E1;
-					};
-					BA245F5F2358580B00C0B1E1 = {
-						CreatedOnToolsVersion = 11.1;
-						TestTargetID = BA245F3E2358580900C0B1E1;
 					};
 				};
 			};
@@ -220,8 +148,6 @@
 			projectRoot = "";
 			targets = (
 				BA245F3E2358580900C0B1E1 /* NFCAndChirp */,
-				BA245F542358580B00C0B1E1 /* NFCAndChirpTests */,
-				BA245F5F2358580B00C0B1E1 /* NFCAndChirpUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,63 +163,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA245F532358580B00C0B1E1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA245F5E2358580B00C0B1E1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90E4E8F0F4B805CF5D709A2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NFCAndChirp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA245F3B2358580900C0B1E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA245F762358656B00C0B1E1 /* ChirpManager.swift in Sources */,
 				BA245F472358580900C0B1E1 /* ViewController.swift in Sources */,
+				BA245F73235858C700C0B1E1 /* NFCManager.swift in Sources */,
 				BA245F432358580900C0B1E1 /* AppDelegate.swift in Sources */,
 				BA245F452358580900C0B1E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA245F512358580B00C0B1E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA245F5A2358580B00C0B1E1 /* NFCAndChirpTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA245F5C2358580B00C0B1E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA245F652358580B00C0B1E1 /* NFCAndChirpUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BA245F572358580B00C0B1E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA245F3E2358580900C0B1E1 /* NFCAndChirp */;
-			targetProxy = BA245F562358580B00C0B1E1 /* PBXContainerItemProxy */;
-		};
-		BA245F622358580B00C0B1E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA245F3E2358580900C0B1E1 /* NFCAndChirp */;
-			targetProxy = BA245F612358580B00C0B1E1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BA245F482358580900C0B1E1 /* Main.storyboard */ = {
@@ -431,11 +341,15 @@
 		};
 		BA245F6A2358580B00C0B1E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F47787203A7E47D66F812D1 /* Pods-NFCAndChirp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NFCAndChirp/NFCAndChirp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JB8P4DX7G;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NFCAndChirp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +363,15 @@
 		};
 		BA245F6B2358580B00C0B1E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2D4324B1F122E30A6F05C1 /* Pods-NFCAndChirp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NFCAndChirp/NFCAndChirp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JB8P4DX7G;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NFCAndChirp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,90 +380,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		BA245F6D2358580B00C0B1E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8JB8P4DX7G;
-				INFOPLIST_FILE = NFCAndChirpTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trinhhc.NFCAndChirpTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFCAndChirp.app/NFCAndChirp";
-			};
-			name = Debug;
-		};
-		BA245F6E2358580B00C0B1E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8JB8P4DX7G;
-				INFOPLIST_FILE = NFCAndChirpTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trinhhc.NFCAndChirpTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NFCAndChirp.app/NFCAndChirp";
-			};
-			name = Release;
-		};
-		BA245F702358580B00C0B1E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8JB8P4DX7G;
-				INFOPLIST_FILE = NFCAndChirpUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trinhhc.NFCAndChirpUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NFCAndChirp;
-			};
-			name = Debug;
-		};
-		BA245F712358580B00C0B1E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8JB8P4DX7G;
-				INFOPLIST_FILE = NFCAndChirpUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trinhhc.NFCAndChirpUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NFCAndChirp;
 			};
 			name = Release;
 		};
@@ -566,24 +400,6 @@
 			buildConfigurations = (
 				BA245F6A2358580B00C0B1E1 /* Debug */,
 				BA245F6B2358580B00C0B1E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA245F6C2358580B00C0B1E1 /* Build configuration list for PBXNativeTarget "NFCAndChirpTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA245F6D2358580B00C0B1E1 /* Debug */,
-				BA245F6E2358580B00C0B1E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA245F6F2358580B00C0B1E1 /* Build configuration list for PBXNativeTarget "NFCAndChirpUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA245F702358580B00C0B1E1 /* Debug */,
-				BA245F712358580B00C0B1E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
